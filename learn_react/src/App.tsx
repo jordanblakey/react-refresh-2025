@@ -1,12 +1,14 @@
 import "./App.css";
 // import CurlyBraces from "./pages/CurlyBraces";
 // import ConditionalRendering from "./pages/ConditionalRendering";
-import RenderingLists from "./pages/RenderingLists";
+// import RenderingLists from "./pages/RenderingLists";
+import KeepingComponentsPure from "./pages/KeepingComponentsPure";
 
 function App() {
   // return <CurlyBraces />;
   // return <ConditionalRendering />;
-  return <RenderingLists />;
+  // return <RenderingLists />;
+  return <KeepingComponentsPure />;
 }
 
 export default App;

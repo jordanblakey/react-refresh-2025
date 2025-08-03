@@ -3,7 +3,8 @@
   flex-wrap: wrap;
 }
 
-#root h1 {
+#root h1,
+#root h2 {
   flex-basis: 100%;
 }
 
