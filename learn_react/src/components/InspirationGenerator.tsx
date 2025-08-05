@@ -1,5 +1,4 @@
 import React from "react";
-import quotes from "../data/quotes";
 import FancyText from "./FancyText";
 import Color from "./Color";
 import inspirations from "../data/inspirations";
