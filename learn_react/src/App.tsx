@@ -4,7 +4,8 @@ import "./App.css";
 // import RenderingLists from "./pages/RenderingLists";
 // import KeepingComponentsPure from "./pages/KeepingComponentsPure";
 // import TheRenderTree from "./pages/TheRenderTree";
-import AddingInteractivity from "./pages/AddingInteractivity";
+// import AddingInteractivity from "./pages/AddingInteractivity";
+import StateAComponentsMemory from "./pages/StateAComponentsMemory";
 
 function App() {
   // return <CurlyBraces />;
@@ -12,7 +13,8 @@ function App() {
   // return <RenderingLists />;
   // return <KeepingComponentsPure />;
   // return <TheRenderTree />;
-  return <AddingInteractivity />;
+  // return <AddingInteractivity />;
+  return <StateAComponentsMemory />;
 }
 
 export default App;

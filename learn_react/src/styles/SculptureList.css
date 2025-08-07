@@ -1,0 +1,23 @@
+.sculptureList {
+  margin: 0 auto;
+  gap: 1rem;
+  width: 850px;
+  max-width: 850px;
+  border: 1px solid gray;
+  padding: 1rem;
+}
+
+.sculptureList .text {
+}
+
+.sculptureList .imageContainer {
+  height: 300px;
+  width: 300px;
+  border: 1px solid gray;
+}
+
+.sculptureList .imageContainer img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
