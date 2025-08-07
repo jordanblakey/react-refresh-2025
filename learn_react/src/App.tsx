@@ -5,7 +5,10 @@ import "./App.css";
 // import KeepingComponentsPure from "./pages/KeepingComponentsPure";
 // import TheRenderTree from "./pages/TheRenderTree";
 // import AddingInteractivity from "./pages/AddingInteractivity";
-import StateAComponentsMemory from "./pages/StateAComponentsMemory";
+// import StateAComponentsMemory from "./pages/StateAComponentsMemory";
+// import RenderAndCommit from "./pages/RenderAndCommit";
+// import StateAsSnapshot from "./pages/StateAsSnapshot";
+import QueuingStateUpdates from "./pages/QueuingStateUpdates";
 
 function App() {
   // return <CurlyBraces />;
@@ -14,7 +17,10 @@ function App() {
   // return <KeepingComponentsPure />;
   // return <TheRenderTree />;
   // return <AddingInteractivity />;
-  return <StateAComponentsMemory />;
+  // return <StateAComponentsMemory />;
+  // return <RenderAndCommit />;
+  // return <StateAsSnapshot />;
+  return <QueuingStateUpdates />;
 }
 
 export default App;
