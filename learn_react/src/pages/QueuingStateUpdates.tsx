@@ -20,7 +20,7 @@ function PrevValue() {
           setNumber((n) => n + 1);
           setNumber((n) => n + 1);
           // this will increment by 1 3 times as batched state updates in the next re-render,
-          // since an updater function is used that takes in the previous value.
+          // since an updater function is used that takes in the previous value...
         }}
       >
         +3
