@@ -9,7 +9,8 @@ import "./App.css";
 // import RenderAndCommit from "./pages/RenderAndCommit";
 // import StateAsSnapshot from "./pages/StateAsSnapshot";
 // import QueuingStateUpdates from "./pages/QueuingStateUpdates";
-import UpdatingObjectsInState from "./pages/UpdatingObjectsInState";
+// import UpdatingObjectsInState from "./pages/UpdatingObjectsInState";
+import UpdatingArraysInState from "./pages/UpdatingArraysInState";
 
 function App() {
   // return <CurlyBraces />;
@@ -22,7 +23,8 @@ function App() {
   // return <RenderAndCommit />;
   // return <StateAsSnapshot />;
   // return <QueuingStateUpdates />;
-  return <UpdatingObjectsInState />;
+  // return <UpdatingObjectsInState />;
+  return <UpdatingArraysInState />;
 }
 
 export default App;
