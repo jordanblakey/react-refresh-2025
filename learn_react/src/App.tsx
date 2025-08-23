@@ -10,7 +10,8 @@ import "./App.css";
 // import StateAsSnapshot from "./pages/StateAsSnapshot";
 // import QueuingStateUpdates from "./pages/QueuingStateUpdates";
 // import UpdatingObjectsInState from "./pages/UpdatingObjectsInState";
-import UpdatingArraysInState from "./pages/UpdatingArraysInState";
+// import UpdatingArraysInState from "./pages/UpdatingArraysInState";
+import ReducerContextExample from "./pages/ReducerContextExample";
 
 function App() {
   // return <CurlyBraces />;
@@ -24,7 +25,8 @@ function App() {
   // return <StateAsSnapshot />;
   // return <QueuingStateUpdates />;
   // return <UpdatingObjectsInState />;
-  return <UpdatingArraysInState />;
+  // return <UpdatingArraysInState />;
+  return <ReducerContextExample />;
 }
 
 export default App;
